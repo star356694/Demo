@@ -1,0 +1,33 @@
+.item img{
+    width: 200px;
+}
+.product .item p{
+    border-left: 5px solid red;
+    padding: 2px 5px;
+    font-family: 微軟正黑體;
+    margin: 10px;
+    /* width: 200px; */
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+a,a:hover{
+    text-decoration: none;
+    color: black;
+}
+.p_list{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    text-align: center;
+}
+.p_list a{
+    margin: 5px;
+    padding: 5px;
+}
+.p_list a:hover{
+    background: rgb(207, 207, 207);
+    color: white;
+    border-radius: 5px;
+}

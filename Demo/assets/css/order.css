@@ -1,0 +1,19 @@
+
+.order h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.o_content th{
+    width: 500px;
+}
+.o_content td{
+    padding: 5px 15px 5px 0;
+    border-bottom: 1px black solid;
+}
+.o_content a{
+    text-decoration: none;
+    color: black;
+}
+.o_content a:hover{
+    color: red;
+}

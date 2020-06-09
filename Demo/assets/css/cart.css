@@ -1,0 +1,61 @@
+.cart h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.c_content td{
+    width: 250px;
+}
+.c_content tr{
+    height: 180px;
+    border-bottom: 2px red solid;
+
+}
+.c_content img{
+    border: 2px gray solid;
+}
+.cancel{
+    background: transparent;
+    border: none;
+}
+.cartnext input{
+    margin: 10px;
+}
+
+.cartnext{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.qtyb{
+    margin: 5px 5px 5px 0;
+}
+.qty{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    border: 0;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 10px;
+}
+input.qtyplus{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aaa;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #f8f8f8;
+    padding: 0;
+    background: #fe4952;;
+}
+  
+input.qtyminus{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aaa;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #f8f8f8;
+    padding: 0;
+    background: #91ddf7;
+}

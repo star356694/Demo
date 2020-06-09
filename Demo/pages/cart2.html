@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- minify -->
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <!-- core style only -->
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <title>購物小車車</title>
+  </head>
+  <body>
+    <!-- 框框 -->
+    <div class="top">
+      <p></p>
+    </div>
+    <div class="bottom">
+      <p>&copy;switchGame</p>
+    </div>
+    <!-- 框框 -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-2">
+          <div class="right"></div>
+        </div>
+
+        <div class="col-8 cart">
+          <div class="cart2">
+            <h3>購物車</h3>
+              <form action="#" class="checkout">
+                <div class="name">
+                  <label for="name">姓名:</label>
+                  <input type="text" name="" id="name" class="nes-input">
+                </div>
+                <div class="phone">
+                  <label for="phone">電話:</label>
+                  <input type="text" name="" id="phone" class="nes-input">
+                </div>
+                <div class="ship">
+                  <p>運送方式:</p>
+                  <label>
+                    <input type="radio" class="nes-radio" name="s" checked />
+                    <span>宅配</span>
+                  </label>
+                  <label>
+                    <input type="radio" class="nes-radio" name="s"/>
+                    <span>7-11</span>
+                  </label>
+                  <label>
+                    <input type="radio" class="nes-radio" name="s"/>
+                    <span>全家</span>
+                  </label>
+                </div>
+                <div class="pay">
+                  <p>付款方式:</p>
+                  <label>
+                    <input type="radio" class="nes-radio" name="p" checked />
+                    <span>貨到付款</span>
+                  </label>
+                  <label>
+                    <input type="radio" class="nes-radio" name="p"/>
+                    <span>信用卡支付</span>
+                  </label>
+                </div>
+                <div class="note"">
+                  <label for="note">備註:</label>
+                  <textarea name="" id="note" class="nes-textarea" cols="50" rows="4"></textarea>
+                </div>
+                <div class="cartnext">
+                  <input type="button" value="上一步" class="nes-btn is-primary" onclick="location.href='cart.html'"></input>
+                  <input type="submit" name="" value="下訂單GOGO" class="nes-btn is-primary" onclick="location.href='product.html'">
+                </div>
+             </form>
+          </div>
+        </div>
+          <!-- <h3>購物車</h3>
+          <div class="cart_img">
+            <img src="../assets/img/1.jpg" width="150px" alt="">
+            <form action="">
+              <p class="name">寶可夢 劍</p>
+              <p style="color: red;font-weight: bold;">$1790</p>
+              <p>x2</p>
+              <input type="submit" class="nes-btn is-primary" value="不要了"></input>
+            </form>
+          </div> -->
+            <!-- 1.商品內容價錢數量刪除
+            2.選擇付款方式地址 備註 下訂單 -->
+        </div>
+        
+          <!-- <div class="col-7">
+            <form action="">
+            <h3>寶可夢 劍</h3>
+            <p>$1790</p>
+            <p>x2</p>
+            <input type="submit" class="nes-btn is-primary" value="不要了"></input>
+            </form>
+          </div> -->
+            
+        
+        <div class="col-2">
+          <div class="left"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

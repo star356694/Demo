@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- minify -->
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <!-- core style only -->
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/information.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <title>商品資訊</title>
+  </head>
+  <body>
+    <!-- 框框 -->
+    <div class="top">
+      <p></p>
+    </div>
+    <div class="bottom">
+      <p>&copy;switchGame</p>
+    </div>
+    
+    
+    <!-- 框框 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="right"></div>
+            </div>
+            <div class="col-3 ppic">
+                <img src="../assets/img/1.jpg" alt="" width="200px">
+            </div>
+            <div class="col-7">
+                <div class="box">
+                    <!-- <h3>寶可夢 劍</h3>
+                    <p>類型: 角色扮演</p>
+                    <p>價格: $1790</p>
+                    <p>發行商: 任天堂株式會社</p> -->
+                    <div class="lists">
+                        <ul class="nes-list is-circle">
+                          <h3>寶可夢 劍</h3>
+                          <li>類型: 角色扮演</li>
+                          <li>價格: $1790</li>
+                          <li class="qtyb">
+                            <label for="">數量: </label>
+                            <input type='button' value='-' class='qtyminus' field='quantity' />
+                            <input type='text' name='quantity' value='0' class='qty' />
+                            <input type='button' value='+' class='qtyplus' field='quantity' />
+                          </li>
+                          <li>發行商: 任天堂株式會社</li>
+                        </ul>
+                      </div>
+                </div>
+                <section>
+                    <button type="button" class="nes-btn is-primary" onclick="document.getElementById('dialog-rounded').showModal();">
+                      Add to Cart
+                    </button>
+                    <dialog class="nes-dialog is-rounded" id="dialog-rounded">
+                      <form method="dialog">
+                        <p class="title">確定加入購物車?</p>
+                        <p>寶可夢 劍</p>
+                        <menu class="dialog-menu">
+                          <button class="nes-btn">No</button>
+                          <button class="nes-btn is-primary">Yes</button>
+                        </menu>
+                      </form>
+                    </dialog>
+                </section>
+            </div>
+            <div class="col-10 intro">
+                <h3 class="title">簡介:</h3>
+                <p>《寶可夢 劍 / 盾》是自《精靈寶可夢 紅 / 綠》誕生以來一直延續至今的《寶可夢》系列的全新作品。在本作中，玩家將在全新舞台與新的寶可夢相遇，展開全新的冒險旅程。本次的冒險舞台 -「伽勒爾地區」。從恬靜的田園到近代都市，從廣闊草原到險峻雪山......
+                 廣大的伽勒爾地區擁有千變萬化的面貌。在這片土地上，人們與寶可夢一起生活，互相合作發展產業。
+                 遊戲主角將造訪伽勒爾地區的各座「道館」，朝成為憧憬中的冠軍為目標展開冒險。
+                </p>
+            </div>
+            <div class="col-10 comment">
+                <h3 class="title">評論:</h3>
+                <form action="#" method="post">
+                    <label for="textarea_field">
+                        <!-- <section class="icon-list">
+                            <i class="nes-icon is-medium star"></i>
+                            <i class="nes-icon is-medium star is-half"></i>
+                            <i class="nes-icon is-medium star is-transparent"></i>
+                            <i class="nes-icon is-medium star is-empty"></i>
+                        </section> -->
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" hidden/>
+                            <label for="star5"></label>
+                            <input type="radio" id="star4" name="rating" value="4" hidden/>
+                            <label for="star4"></label>
+                            <input type="radio" id="star3" name="rating" value="3" hidden/>
+                            <label for="star3"></label>
+                            <input type="radio" id="star2" name="rating" value="2" hidden/>
+                            <label for="star2"></label>
+                            <input type="radio" id="star1" name="rating" value="1" hidden/>
+                            <label for="star1"></label>
+                        </div>
+                    </label>
+                    <textarea id="textarea_field" class="nes-textarea" placeholder="How do u think :)"></textarea>
+                    <button type="submit" class="nes-btn is-primary">Send</button>
+                </form>
+                
+                <div class="hc">
+                    <div class="nes-balloon from-left nes-pointer">
+                        <div class="up">
+                            <p class="name">Mike</p>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                        </div>
+                        好好玩
+                    </div>
+                </div>
+                <div class="hc">
+                    <div class="nes-balloon from-left nes-pointer">
+                        <div class="up">
+                            <p class="name">JiKuai</p>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star is-transparent"></i>
+                            <i class="nes-icon is-small star is-transparent"></i>
+                        </div>
+                        還好
+                    </div>
+                </div>
+                <div class="hc">
+                    <div class="nes-balloon from-left nes-pointer">
+                        <div class="up">
+                            <p class="name">Six</p>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                            <i class="nes-icon is-small star"></i>
+                        </div>
+                        樓上好吃
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="left"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../assets/js/qty.js"></script>
+</body>
+</html>

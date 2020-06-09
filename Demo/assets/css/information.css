@@ -1,0 +1,71 @@
+/* .ppic{
+    margin: 50px 0;
+    
+}
+.box{
+    margin: 50px 0;
+} */
+.box h3{
+    font-weight: bold;
+}
+.intro{
+    margin: 50px;
+}
+.intro .title{
+    text-align: center;
+}
+.intro p{
+    line-height: 40px;
+}
+.comment{
+    text-align: center;
+    margin: 50px;
+}
+.hc{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.hc .name{
+    margin-right: 10px;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+}
+.is-primary{
+    margin-left: 45px;
+}
+
+.rating {
+    font-size: 0;
+    display: table;
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+
+.rating > label:before {
+    padding: 5px;
+    font-size: 24px;
+    line-height: 1em;
+    display: inline-block;
+    content: "★";
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #FFD700;
+}
+
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+    opacity: 0.5;
+}
