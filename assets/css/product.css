@@ -4,9 +4,8 @@
 .product .item p{
     border-left: 5px solid red;
     padding: 2px 5px;
-    font-family: 微軟正黑體;
     margin: 10px;
-    /* width: 200px; */
+    width: 250px;
 }
 .product{
     display: flex;
@@ -27,7 +26,15 @@ a,a:hover{
     padding: 5px;
 }
 .p_list a:hover{
-    background: rgb(207, 207, 207);
-    color: white;
+    /* background: rgb(207, 207, 207); */
+    background: pink;
+    /* color: white; */
     border-radius: 5px;
+}
+.p_list a:focus{
+    background: pink;
+}
+.p_list a.select{
+    background: rgb(255, 56, 56);
+    color: white;
 }

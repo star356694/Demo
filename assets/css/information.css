@@ -1,10 +1,11 @@
-/* .ppic{
-    margin: 50px 0;
-    
+.ppic{
+    margin-left: 250px;
+    margin-top: 100px;
 }
-.box{
-    margin: 50px 0;
-} */
+.infor{
+    margin-left: 500px;
+    margin-top: -200px;  
+}
 .box h3{
     font-weight: bold;
 }
@@ -68,4 +69,56 @@
 .rating > label:hover ~ input:checked ~ label,
 .rating > input:checked ~ label:hover ~ label {
     opacity: 0.5;
+}
+.screen{
+    text-align: center;
+}
+.screen img{
+    width: 450px;
+}
+.screen, .comment{
+    margin-left: 90px;
+}
+
+/* pop */
+#pop{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    z-index: 9999999;
+}
+#pop .bg{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    
+}
+/* @media \0screen\,screen\9 {
+    #pop .bg{
+        background-color:#000000;
+        filter:Alpha(opacity=50);
+        position:static;
+    }
+    #pop .bg img{
+        position: relative;
+    }
+} */
+#pop img{
+    margin-top: 10%;
+    max-height: 90%;
+    width: 600px;
+}
+#bc img{
+    width: 450px;
+}
+
+.page-item a{
+    color: #195180;
+}
+.page-item a{
+    border: none;
 }

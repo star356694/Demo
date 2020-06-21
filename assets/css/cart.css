@@ -1,6 +1,23 @@
+.all{
+	position:relative;
+	top:-70px;
+	left:10px;
+}
+.cart{
+    position: relative;
+    top: 100px;
+    left: -150px;
+}
 .cart h3{
     text-align: center;
     margin-bottom: 50px;
+}
+.c_content{
+    margin-left: 50px;
+}
+.checkout{
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .c_content td{
     width: 250px;
@@ -8,7 +25,6 @@
 .c_content tr{
     height: 180px;
     border-bottom: 2px red solid;
-
 }
 .c_content img{
     border: 2px gray solid;
@@ -16,6 +32,7 @@
 .cancel{
     background: transparent;
     border: none;
+    margin-left: 100px;
 }
 .cartnext input{
     margin: 10px;
@@ -23,7 +40,7 @@
 
 .cartnext{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 20px;
 }
 .qtyb{
@@ -58,4 +75,40 @@ input.qtyminus{
     background: #f8f8f8;
     padding: 0;
     background: #91ddf7;
+}
+
+#content
+{
+	position:relative;
+	left:10px;
+	top:120px;
+	font-size:25px;
+	width: 200px;
+}
+.vertical-menu 
+{
+  width: 150px; /* Set a width if you like */
+}
+
+.vertical-menu a 
+{
+  background-color:rgb(228, 228, 228); /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 9px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  font-size:18px;
+ }
+
+.vertical-menu a:hover 
+{
+  background-color: rgb(202, 200, 200);
+  color: black;
+   text-decoration: none; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active 
+{
+  background-color: rgb(202, 200, 200); /* Add a green color to the "active/current" link */
+  color: black;
 }

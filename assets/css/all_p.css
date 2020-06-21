@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'setofont';
+    src: url('..assets/font/setofont.ttf') format("truetype");
+
+}
+*{
+    font-family: "setofont","微軟正黑體";
+}
+.a1 a{
+  color: #195180;
+}
+.a1 a:hover{
+  text-decoration: none;
+  color: rebeccapurple;
+}
+/* 框框 */
+.left{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 150px;
+    background: #91ddf7;
+    margin: 0 5px 0 0;
+    border-right: 10px black solid;
+    z-index: 4;
+}
+.right{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 150px;
+    background: #fe4952;
+    margin: 0 0 0 5px;
+    border-left: 10px black solid;
+    z-index: 4;
+}
+.top{
+    position: fixed;
+    top: 0;
+    height: 30px;
+    width: 100vw;
+    background:black;
+    z-index: 3;
+    margin: auto;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100vw;
+    background:black;
+    z-index: 3;
+    margin: auto;
+}
+.bottom p{
+    /* display: inline-block; */
+    /* margin-left: 100px;
+    margin-right: 30px; */
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.top p{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+
+}
+/* 框框 */
+
+body{
+    padding-bottom: 50px;
+}
+
+/* 導覽 */
+.a{
+    width: 1500px;
+    height: 85px;
+    position: relative;
+    top: 10px;
+    left: 0%;
+    /* right: 600px; */
+    padding: 20px;
+    border-bottom: rgba(161, 158, 158, 0.842) solid 1px;
+    margin-bottom: 50px;
+  }
+  .a1{
+    width:1110px;
+    height: 50px;
+    position: absolute;
+    top: 35px;
+    left: -200px;
+    font-size: 20px;
+    text-align: right;
+    z-index: 1;
+    /* margin-bottom: 50px;  */
+  }
+  .d{
+    width: 250px;
+    height: auto;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 50px;
+    left: 80px;
+    float: right;
+    z-index: 2;
+  }
+  form.example{padding: 15px;}
+  form.example input[type=text] { /*搜尋區塊*/
+     box-sizing:border-box;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    height: 35px;
+  }
+  form.example button {  /*搜尋圖示*/
+    float: left;
+    width: 20%;
+    background: #85d1eb;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    height: 35px;
+  }
+  form.example button:hover {
+    background: #2c94e9;
+  }
+  form.example:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* 導覽 */
+  /*Banner*/
+  .container{
+      position: relative;
+  }
+  /*Banner*/
+  /*側邊功能鍵*/
+.arrow{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    left: 0px;
+    top: 200px;
+}
+.arrowimg{
+    max-height: 80px;
+}
+.arrowleft{
+  padding: 5px;
+  position: absolute;
+  top:400px;
+  left: -18px;
+}
+  .memberbutton{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      background-color: rgb(26, 26, 26);
+      position: absolute;
+      top: 600px;
+      left: 35px;
+  }
+  .memberbutton1{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: rgb(41, 40, 40);
+      position: absolute;
+      top: 5px;
+      left: 5px;
+  }
+  .buttonleft{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top: 200px;
+    left:30px
+  }
+  .buttonleft1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(41, 40, 40);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .member{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .tab {
+      overflow: hidden;
+      background-color: #d7edf7;
+      position: relative;
+      top:0px;
+      left: 0px;
+      border-radius: 5px;
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color:transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 20px;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ffffff6e;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ffffff6e;
+    }
+    
+    /* Style the tab content */
+    #tb01{
+      display: block;
+    }
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border-top: none;
+    }
+  
+  /*側邊功能鍵*/
+  
+  /*登入註冊*/
+    .login{
+      width: 270px;
+      height: 270px;
+      margin-top: 20px;
+    }
+    .register{
+      width: 270px;
+      height: 580px;
+    }
+    .ipt input[type=text], input[type=password] {
+      width: 90%;
+      padding: 12px 20px;
+      margin: 5px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius:5px;
+    }
+    .ipt2 input[type=text],input[type=password],input[type=e-mail] {
+      width: 90%;
+      padding: 10px 10px;
+      margin: 5px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius:5px;
+     
+    }
+    .btn02 button {
+      background-color: #f08c91ce ;
+      padding: 14px 20px;
+      margin: 13px 0;
+      border: none;
+      cursor: pointer;
+      width: 90%;
+      border-radius:10px;
+      font-weight:bold;
+    }
+  
+    .btn02 button:hover {
+      opacity: 0.8;
+    }
+  /*登入註冊*/
+  
+  
+  /*簡介*/
+  
+  .outbox01
+  {
+      text-align:center;
+      width:100%;
+      height:480px;
+  }                                                  
+  .inbox01{box-shadow: 2px 5px 9px 2px rgba(0, 0, 0, 0.2);
+      position:relative; 
+      height:340px;
+      top:10px;
+      width:70%;
+      margin:0px auto;
+      background-color:white;
+      padding:3px 3px 3px 3px;
+      text-align:center;
+   }
+   
+  .inbox01-s
+  {
+      float:left;
+      width:100px;
+      max-width:100%;
+      height:75%;
+   }
+  
+  .me2{
+      margin: 20px 15px 10px 60px;
+      border-radius: 4px;
+      background-color:rgb(114, 107, 107);
+      border:none;
+      color:white;
+      font-size:20px;
+      padding: 5px;
+      height:40px;
+      width: 120px;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+  
+  
+  .me2 span {
+      cursor :pointer;
+      display:inline-block;
+      position: relative;
+      transition: 0.5s;
+  }
+  
+  .me2 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+  }
+  
+  .me2:hover span {
+      padding-right: 25px;
+  }
+  
+  .me2:hover span:after {
+      opacity: 1;
+      right: 0;
+  }
+  
+  /*熱銷商品*/
+  
+  .card img{
+    width:70%;
+    margin:auto;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition 1s ease;
+    backface-visibility :hidden;
+    padding-top:30px;
+  }
+  /**/
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: rgb(117, 37, 37);
+    font-size: 18px;
+  }
+  .card h1{font-size:25px;}
+  .word{font-size:17px;}
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:#add1e2;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight:600;
+    height:100%;
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .cardcontainer {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .cardimage {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .cardoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(95, 95, 95, 0.719);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .4s ease;
+    transition: .5s ease;
+    opacity: 0.85;
+  }
+  
+  .cardcontainer:hover .cardoverlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .cardtext {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    width:90%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+  }
+  .one{
+	  position:relative;
+}
+/* 我改的註冊框 */
+  .register input:not(input[type='ridio']){
+    height: 42px;
+    font-size: 14px;
+  }
+  .register{
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .register button{
+    height: 48px;
+  }
+  
+  

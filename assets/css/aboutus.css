@@ -1,0 +1,75 @@
+.us{
+    width: 1500px; 
+    height: 800px; 
+    position: relative;
+}
+.usus{
+    position: absolute;
+    top: 30%;
+    left: 100px;
+}
+.aboutus{
+    position: relative;
+    top: -90px;
+    left: 50%;
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+.col{
+    width: 300px;
+    height: 370px;
+    box-shadow:2px 2px 10px rgba(167, 164, 164, 0.829);
+    border-radius: 10px;
+    text-align: center;
+	
+}
+.usimg{
+    width: 170px;
+    height: 190px;
+    margin: 20px 12px 10px 12px;
+    border-radius: 8px;
+    
+}
+#i1{
+    background-color: rgb(136, 197, 112);
+}
+#i2{
+    background-color: rgb(214, 202, 28);
+}
+#i3{
+    background-color: rgb(223, 62, 62);
+}
+#i4{
+    background-color: rgb(78, 128, 202);
+}
+.usname{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    stroke: white;
+    color: transparent;
+}
+#n1{
+    color: rgb(234, 241, 231);
+    text-shadow:2px 2px 2px   rgb(34, 112, 24);
+    font-weight: bold;
+}
+#n2{
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 2px  rgb(139, 126, 9);
+    font-weight: bold;
+}
+#n3{
+    color: rgb(211, 172, 172);
+    text-shadow:2px 2px 2px  rgb(148, 32, 32);
+    font-weight: bold;
+}
+#n4{
+    color: rgb(170, 174, 231);
+    text-shadow:2px 2px 2px rgb(43, 67, 133);
+    font-weight: bold;
+}
+.aboutme{
+    font-size: 18px;
+    color: rgb(45, 46, 46);
+}
